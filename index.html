@@ -1,35 +1,65 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+   <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+   <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+   <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-    <title>Inky Blackness by inkyblackness</title>
-  </head>
+   <title>Inky Blackness by inkyblackness</title>
+</head>
 
-  <body>
+<body>
 
-    <header>
+   <header>
       <div class="container">
-        <h1>Inky Blackness</h1>
-        <h2>It&#39;s just a pet-project for testing</h2>
+         <h1>Inky Blackness</h1>
+         <h2>It&#39;s just a pet-project for experimentation</h2>
 
-        <section id="downloads">
-          <a href="https://github.com/inkyblackness" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
+         <section id="downloads">
+            <a href="https://github.com/inkyblackness" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+         </section>
       </div>
-    </header>
+   </header>
 
-    <div class="container">
+   <div class="container">
       <section id="main_content">
-        <p>As of now, there is nothing of interest to see.</p>
-      </section>
-    </div>
+         <p>
+            InkyBlackness is a pet-project for experimentation. Any useful by-products are happily created,
+            and not the main goal otherwise. The problem domain is the old DOS game
+            <a href="http://en.wikipedia.org/wiki/System_Shock">System Shock</a>.
+         </p>
+         <p>
+            However, while it is explicitly <em>not</em> the main goal to create another attempt at a clone, work is
+            performed under the following assumption: &quot;What would one need if they wanted to make a clone?&quot;
+            And follow the resulting things in small steps.
+         </p>
 
-    
-  </body>
+         <h2>Current Focus</h2>
+         <p>
+            The current focus is on the data files and the capability to properly load and save them. Instead of
+            slowly implementing a game engine on the go to represent properties of the resources, the smallest
+            possible steps are performed to see changes using the one engine that runs stable for over 20 years now.
+         </p>
+         <p>
+            Should ever a level editor come out of this, it will most likely be in the style of the old 2D top-down
+            editors under DOS - not like the modern in-engine applications.
+         </p>
+
+         <h2>Resources</h2>
+         <p>
+            The most relevant sub-project is <a href="https://github.com/inkyblackness/ss-specs">ss-specs</a>, the
+            documentation of the data files. This project, with the help of the other supporting sub-projects, is set up
+            to allow easy contribution on any finding.
+         </p>
+         <p>
+            <a href="https://github.com/inkyblackness/hacker">hacker</a> is a command-line tool with which
+            modifications can be performed on the byte-level. It is meant to allow rapid experimentation with
+            changes on the data files. Results of these experiments should flow back into ss-specs.
+         </p>
+      </section>
+   </div>
+</body>
 </html>
