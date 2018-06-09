@@ -16,7 +16,7 @@
    <header>
       <div class="container">
          <h1>InkyBlackness</h1>
-         <h2>It&#39;s just a pet-project for experimentation</h2>
+         <h2>It&#39;s an open-source project for creating modding tools for System Shock (1994)</h2>
 
          <section id="downloads">
             <a href="https://github.com/inkyblackness" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
@@ -27,33 +27,40 @@
    <div class="container">
       <section id="main_content">
          <p>
-            InkyBlackness is a pet-project for experimentation. Any useful by-products are happily created,
-            and not the main goal otherwise. The problem domain is the old DOS game
-            <a href="http://en.wikipedia.org/wiki/System_Shock">System Shock</a>.
-         </p>
-         <p>
-            However, while it is explicitly <em>not</em> the main goal to create another attempt at a clone, work is
-            performed under the following assumption: &quot;What would one need if they wanted to make a clone?&quot;
-            And follow the resulting things in small steps.
+            InkyBlackness is an open-source project for creating modding tools for System Shock (1994).
+            Any useful by-products are happily created, and not the main goal otherwise.
+            The problem domain is the old DOS game
+            <a href="http://en.wikipedia.org/wiki/System_Shock">System Shock (1994)</a>.
          </p>
 
          <h2>Current Focus</h2>
          <p>
-            The current focus is on the data files and the capability to properly load and save them. Instead of
-            slowly implementing a game engine on the go to represent properties of the resources, the smallest
-            possible steps are performed to see changes using the one engine that runs stable for over 20 years now.
+            The current focus is on creating a fully capable data, resource, and level editor for the game.
+            It is meant to create compatible files for both the vanilla game, as well as the re-releases, such as
+            the extended edition (SS:EE), and the "source-port" including compatible derivatives.
          </p>
-
-         <h2>Resources</h2>
          <p>
-            The most relevant sub-project is <a href="https://github.com/inkyblackness/ss-specs">ss-specs</a>, the
+            The related sub-project is <a href="https://github.com/inkyblackness/ss-specs">ss-specs</a>, the
             documentation of the data files. This project, with the help of the other supporting sub-projects, is set up
             to allow easy contribution on any finding.
          </p>
+
+         <h2>Releases</h2>
+         <h3>HackEd</h3>
          <p>
-            The regularly released software-package is <a href="https://github.com/inkyblackness/deck">deck</a>, which
-            contains the pre-built binaries of a collection of tools.
+            This graphical editor is meant to become the all-in-one editor for the game. The related sub-project is
+            <a href="https://github.com/inkyblackness/hacked">here</a>.
+         </p>
+         <p>
+            At the moment (2018-06), this tool is not ready to obsolete the deck package. See below.
+         </p>
+         <h3>Deck package</h3>
+         <p>
+            The software-package called <a href="https://github.com/inkyblackness/deck">deck</a> contains the
+            pre-built binaries of a collection of tools.
             Follow the official forum thread about this package <a href="https://www.systemshock.org/index.php?topic=9515.0">on the systemshock.org forums</a>.
+            For the moment, this is the complete package of &quot;prototype&quot; tools, which still allow a decent amount of
+            editing. Yet, they are meant to be superseded by HackEd.
          </p>
          <p>
             The 2D level-editor is currently realized with &quot;shocked-client&quot;. Its user documentation can be
@@ -64,12 +71,17 @@
             modifications can be performed on the byte-level. It is meant to allow rapid experimentation with
             changes on the data files. Results of these experiments should flow back into ss-specs.
          </p>
+
+         <h3>Resources</h3>
          <p>
             A dedicated <a href="https://www.youtube.com/channel/UCxEhgHRGd6WLEUEw8vnHm2Q">YouTube channel</a> exists,
             with tutorials and show-cases of modding.
             <br />
             Discuss the tools and the System Shock game series in general on the community hub
             <a href="https://www.systemshock.org">www.systemshock.org</a>.
+            Two sub-forums are relevant:
+            <a href="https://www.systemshock.org/index.php?board=13.0">Deck 13</a> for source-code related discussions, and
+            <a href="https://www.systemshock.org/index.php?board=36.0">Engineering</a> for game modding discussions.
          </p>
       </section>
    </div>
